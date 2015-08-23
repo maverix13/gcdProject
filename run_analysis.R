@@ -1,5 +1,7 @@
 run_analysis <- function() {
     
+    library(dplyr)
+    
     # Load Train Data -- Relevant Files X_train, y_train and subject_train
     xTrain <- read.table("data/UCI HAR Dataset/train/X_train.txt")
     yTrain <- read.table("data/UCI HAR Dataset/train/y_train.txt")
